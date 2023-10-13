@@ -1,0 +1,397 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing:border-box;
+font-family:arial, Helvetica, sans-serif;
+
+}
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    padding-bottom: 1%;
+    font-size: large;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+nav ul li {
+    display: inline-block;
+    padding-right: 15px ;
+    position: relative fixed; 
+    list-style: none;
+    padding: 10px 20px;
+
+}
+nav ul li a {
+    color: #868586e7;
+    padding: 5px 10px;
+    text-decoration: none;
+    position: relative;  
+}
+.button {
+  background-color: rgb(255, 255, 255);
+  color: #090707;
+  padding: 6px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  padding-top: 2px;
+}
+.button:hover {
+  background-color: #0a0a0b;
+  color:white;
+}
+nav ul li a:hover {
+    color: #030303e7;
+    font-weight: bold;
+    transition: 0.5s;
+    
+}
+.container{
+        background: url(background.png)no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 800px; 
+        margin-top: 40px;
+        padding-top: 13%;
+        padding-bottom: 13%;
+    }
+    .container p{
+        color: rgb(54, 54, 54);
+        font-size: 20px; 
+        margin-top: 20px;
+        margin-bottom: 40px;
+        margin-left: 125px;
+    }
+    .container h1 {
+        color: rgb(7, 0, 0);
+        font-size: 50px;
+        font-weight: 700%;
+        line-height: 65px;
+        margin-left: 125px;
+        width: auto;
+        margin-top: -2%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .big-button {
+        background-color: rgb(6, 0, 0);
+        color: #f8f3f3;
+        padding: 10px 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size:  25px;
+        margin-left: 125px;
+        width: 250px;
+        margin-bottom: 100px;
+    }
+    .flex img {
+        height: 400px;
+        width: 40%;
+        margin-right: 100px;
+        box-shadow: 8px 10px 20px rgba(1, 0, 0, 0.3);
+    }
+    .flex{
+    display: flex;
+     justify-content: space-between;
+    }
+    .part1{
+     display: flex;
+     flex-direction: column;
+    }
+.footer {
+    background-color: #676767;
+    color: #f1f0f0; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4%;
+  }
+  .footer h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+   
+    color: #fbfbfe;
+  }
+  .footer h2{
+    font-size: 30px;
+    margin-right: -4%;
+    margin-top: 4%;
+    color: #020202;
+    font-family: Georgia;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .footer li {
+    margin-right: 40px;
+    margin-bottom: 20%; 
+  }
+  .footer a {
+    text-decoration: none;
+    color: #ffffff; 
+    display: block;
+  }
+  .footer .icons {
+   display: flex;
+  }
+  .footer .icons a {
+    font-size: 24px;
+    transition: color 0.3s; 
+    margin-right: 20%;
+    margin-left: 3%;
+    margin-top: 8%;
+  }
+  .footer .icons a:hover {
+    color: #080808; 
+  }
+ /* ABOUT */
+ .contact-container{
+    background: #f8f8fc;
+ }
+.about-container {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin-top: 8%;
+
+}
+
+.about-image {
+    flex: 1;
+ 
+}
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
+.about-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* CSS for the Contact section */
+.contain h1{
+    color: #020202;
+     background-color: #007BFF;
+}
+
+
+/*  flight */
+.Flight {
+    padding: 50px 0;
+    text-align: center;
+    margin: 6%;
+   
+}
+
+.Flight h2 {
+    font-size: 28px;
+    color: #333;
+    font-size: 20px;
+    font-family:  Georgia,  'Times New Roman', serif;
+}
+
+.flight-cards {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 2;
+}
+
+.flight-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 500px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+.flight-card img {
+    width: 100%;
+    border-radius: 4px;
+}
+.flight-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.flight-card .price {
+    color: #020205;
+    font-size: 18px;
+    margin: 5px 0;
+}
+.flight-card p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.book-button {
+    background-color: #349d34;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.book-button:hover {
+    background-color: #0b100b;
+}
+
+
+head {
+    background-color: #007BFF;
+    color: #a33f3f;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.guide-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 200px;
+    padding-bottom: 15px;
+
+}
+.guide-card {
+    flex: 0 0 calc(33.33% - 20px);
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 8px 10px 20px rgba(1, 0, 0, 0.3);
+}
+
+.guide-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+/* CONTACT*/
+.s{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    background-color: #ffffff;
+    
+}
+.contact-form {
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 450px;
+    margin-bottom: 8%;
+    
+    
+}
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-style: oblique;
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.form-group {
+    margin-bottom: 10px;
+   
+    
+}
+label {
+    font-size: 16px;
+}
+
+input,
+textarea {
+   width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #f4f1f1;
+    border-radius: 5px;
+    background-color: #cfcfd1;
+}
+
+.contact-form button {
+    width: 25%;
+    padding: 10px;
+    background-color: #090a0a;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #333433;
+}
+
+/* Contact Section Styles */
+.contact {
+    padding: 20px;
+    padding-bottom: 2%;
+    margin-left: 40px;
+ 
+}
+
+.contact h2 {
+    font-size: 24px;
+    padding-bottom: 1%;
+}
+
+.contact p {
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #007bff;
+}
