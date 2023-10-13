@@ -113,7 +113,6 @@ nav ul li a:hover {
   .footer h4 {
     font-size: 20px;
     margin-bottom: 25px;
-   
     color: #fbfbfe;
   }
   .footer h2{
@@ -140,31 +139,20 @@ nav ul li a:hover {
     color: #ffffff; 
     display: block;
   }
-  .footer .icons {
-   display: flex;
-  }
-  .footer .icons a {
-    font-size: 24px;
-    transition: color 0.3s; 
-    margin-right: 20%;
-    margin-left: 3%;
-    margin-top: 8%;
-  }
-  .footer .icons a:hover {
-    color: #080808; 
+  .content h4{
+    margin-left: 4%;
+    font-size: larger;
+    margin-bottom: 2%;
+   
   }
  /* ABOUT */
- .contact-container{
-    background: #f8f8fc;
- }
+ 
 .about-container {
     display: flex;
     align-items: center;
     padding: 50px;
-    margin-top: 8%;
-
+    margin-top: -3%;
 }
-
 .about-image {
     flex: 1;
  
@@ -179,11 +167,15 @@ nav ul li a:hover {
 .about-text {
     flex: 1;
     padding: 20px;
+    
 }
 
 .about-text h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    padding-left: 125px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 .about-text p {
@@ -191,10 +183,7 @@ nav ul li a:hover {
     line-height: 1.5;
 }
 /* CSS for the Contact section */
-.contain h1{
-    color: #020202;
-     background-color: #007BFF;
-}
+
 
 
 /*  flight */
@@ -202,15 +191,21 @@ nav ul li a:hover {
     padding: 50px 0;
     text-align: center;
     margin: 6%;
-   
+    background: url(background.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0; 
 }
 
 .Flight h2 {
     font-size: 28px;
-    color: #333;
-    font-size: 20px;
+    color: #030303;
+    font-size: 30px;
+    margin-top: 8%;
     font-family:  Georgia,  'Times New Roman', serif;
+    background-color: #9b9d9b;
 }
+
 
 .flight-cards {
     margin-top: 5%;
@@ -249,7 +244,7 @@ nav ul li a:hover {
     margin: 10px 0;
 }
 .book-button {
-    background-color: #349d34;
+    background-color: #10a430;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -261,26 +256,29 @@ nav ul li a:hover {
 .book-button:hover {
     background-color: #0b100b;
 }
-
-
-head {
-    background-color: #007BFF;
-    color: #a33f3f;
-    text-align: center;
-    padding: 20px;
+.contain {
+    padding-bottom:1% ; 
+    background: url(background.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top:1% ;
+    
+     
 }
-
-h1 {
-    font-size: 36px;
+.contain h1{
+    margin-top: 10%;
+    color: #020202;
+    font-size: 40px;
+    padding-left: 100px;
+    padding-bottom:3% ; 
+   
 }
-
 .guide-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 200px;
     padding-bottom: 15px;
-
+    padding: 15px 50px;
 }
 .guide-card {
     flex: 0 0 calc(33.33% - 20px);
@@ -295,27 +293,25 @@ h1 {
     width: 100%;
     border-radius: 10px;
 }
-
-h2 {
-    font-size: 24px;
-    margin-top: 10px;
+.contain p{
+    margin-top: 1%;
+    padding-left: 1px;
+    margin-bottom: 20px;
 }
 /* CONTACT*/
 .s{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10px;
-    background-color: #ffffff;
+    margin-left: 40px;
     
 }
 .contact-form {
     padding: 10px;
-    background-color: #ffffff;
+    background:rgb(246, 242, 242);
     border-radius: 10px;
     width: 450px;
     margin-bottom: 8%;
-    
-    
+
 }
 .contact-form h2 {
     font-size: 24px;
@@ -340,7 +336,7 @@ label {
 
 input,
 textarea {
-   width: 100%;
+    width: 100%;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #f4f1f1;
@@ -393,5 +389,8 @@ textarea {
 
 .contact a {
     text-decoration: none;
-    color: #007bff;
+    color: #0875ea;
 }
+
+
+
