@@ -6,6 +6,7 @@
     
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    
     <title>my log travel</title>
 </head>
 <body>
@@ -15,35 +16,50 @@
             <li ><a href="index.html">Home</a></li>
             <li><a href="Guides.html">Guides</a></li>
             <li><a href="Flights.html">Flights</a></li>
-            <li><a href="#About">About</a></li>
+            <li><a href="About.html">About</a></li>
           </ul>
     </nav>
     <a href="contact.html"><BUtton class="button"><h2>Contact Us</h2></BUtton></a>
  </div>
- <div class="container"> 
- <!-- About -->
- <div class="about-container">
-    <div class="about-image">
-        <img src="pexels-leah-kelley-3935702.jpg" alt="Travel Destination">
+ <div class="container">
+    <section class="s" id="fc">
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2>Send us a message</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need assistance,
+                 feel free to get in touch with us:</p>
+            <ul>
+                <li>Email: <a href="mailto:mylogtravel@gmail.com">mylogtravel@gmail.com</a></li>
+                <li>Phone: +212 656-7890</li>
+                <li>Address: 123 Travel Street, morocco</li>
+            </ul>
+        </div>
+    </section>
     </div>
-    <div class="about-text">
-        <h2>About Our Travel Experience</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Sed pulvinar justo at magna condimentum, a tincidunt dui dapibus. 
-            Sed et scelerisque ex. Fusce auctor vehicula turpis vel sollicitudin. 
-            Nullam congue enim id metus tincidunt, vel dignissim felis tristique.
-        </p>
-        <p>
-            Nulla facilisi. Suspendisse eu quam at odio tincidunt facilisis. 
-            Sed vel efficitur massa. Proin a rhoncus arcu. Phasellus aliquam, 
-            urna vel tincidunt hendrerit, ipsum velit tincidunt justo.
-        </p>
     </div>
-</div>
-</div>
+<!----- foooter----->
 <div class="footer">
     <h2>MY LOG<br>TRAVEL</h2>
+   
     <div class="footer-content">
         <h4>links</h4>
         <ul>
@@ -73,5 +89,6 @@
         </ul>
     </div>
 </div>
+
 </body>
 </html>
